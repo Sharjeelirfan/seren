@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #F1EFE7; */
+  background-image: radial-gradient(circle at left, #e2c6a0, #fff);
+  height: 100vh;
+  width: 100%;
+}
+header {
+  position: fixed;
+}
+#navbar {
+  /* background-color: #F1EFE7; */
+  border-bottom: 0.6px solid gray;
+  /* position: fixed; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo-div {
+  /* background-color: rgba(192, 160, 128,0.5); */
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 200px;
+}
+#logo {
+  width: 170px;
+  margin-top: 7px;
+  margin-left: 19px;
+  cursor: pointer;
+}
+#right {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #C0A080; */
+  cursor: pointer;
+  margin-top: 7px;
+}
+/* .icons{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    background-color:rgba(192, 160, 128,0.5);
+    border-radius: 50px;
+
+} */
+#bell-icon {
+  width: 25px;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 15px;
+  margin-top: 6px;
+}
+#user-icon {
+  margin-right: 15px;
+  width: 25px;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+#menu-icon {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 11px;
+  margin-top: 9px;
+  margin-right: 15px;
+}
+
+main {
+  position: absolute;
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#login-div {
+  font-family: sans-serif;
+  /* background-color: rgba(192, 160, 128,0.5); */
+  /* border: 1px solid ; */
+  width: 400px;
+  /* margin-top: 500px; */
+  height: 500px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-left: 0; */
+  /* width: 100%; */
+}
+#login-logo {
+  margin-top: 10px;
+  border-bottom: 1px solid;
+}
+#login-hd {
+  margin-top: 10px;
+}
+#login-form {
+  margin-top: 20px;
+}
+#login-email {
+  height: 40px;
+  width: 380px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+#login-pass {
+  height: 40px;
+  width: 380px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 38px;
+  margin-bottom: 15px;
+  margin-left: -10px;
+}
+
+#show-pass {
+  margin-left: -35px;
+}
+#show-pass-img {
+  width: 20px;
+  cursor: pointer;
+}
+
+#forgot-pass {
+  margin-left: 250px;
+  cursor: pointer;
+}
+#login-btn {
+  margin-top: 20px;
+  width: 370px;
+  height: 40px;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+#login-btn:hover {
+  background-color: #4a90e2;
+}
+#login-btn:active {
+  background-color: white;
+}
+
+#notaccount {
+  margin-top: 40px;
+}
+
+#footer-div {
+  border-top: 0.5px solid black;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  bottom: 20px;
+}
+
+#copy {
+  margin-left: 40pc;
+  margin-top: 10px;
+  font-size: 20px;
+}

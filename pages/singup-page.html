@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEREN-SINGUP</title>
+    <link rel="stylesheet" href="../style/singup.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/S_letter.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header id="navbar">
+      <div id="left">
+        <div id="logo-div">
+          <img id="logo" src="../images/logo.png" alt="SEREN" />
+        </div>
+      </div>
+
+      <div id="right">
+        <div class="icons">
+          <img
+            src="../images/bell.png"
+            title="Notification"
+            id="bell-icon"
+            alt="Notification"
+          />
+        </div>
+        <div class="icons">
+          <img
+            src="../images/menu.png"
+            title="more info"
+            id="menu-icon"
+            alt="more"
+          />
+        </div>
+        <div class="icons">
+          <img
+            src="../images/user.png"
+            title="Account"
+            id="user-icon"
+            alt="user"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="hero-left">
+        <h1 id="form-heading">Sing-Up</h1>
+        <form id="signup-form">
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="First Name"
+            maxlength="100"
+          />
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Last Name"
+            maxlength="100"
+          />
+
+          <br />
+
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Email"
+            maxlength="100"
+            required
+          />
+
+          <br />
+
+          <input
+            name="pass"
+            id="pass"
+            type="password"
+            placeholder="Password"
+            required
+          />
+
+          <br />
+
+          <input
+            name="confirm-pass"
+            id="confirm-pass"
+            type="password"
+            placeholder="Confirm Password"
+          />
+
+          <br />
+
+          <input name="term" id="term" type="checkbox" />
+          <label id="label-term" for="term"
+            >I accept the <a href="./terms.html">Terms</a> of Use & Privacy
+            Policy</label
+          >
+
+          <br />
+
+          <button id="singup" type="submit">SING UP</button>
+        </form>
+        <div>
+          <p id="alreadyaccount">
+            Already have an account?<a href="./login-page.html"> Login</a> here
+          </p>
+        </div>
+      </div>
+
+      <div id="hero-right">
+        <img src="../images/logo.png" id="hero-logo" />
+        <p id="hero-line">
+          Seren brings you closer to the people and passions that matter most.
+          Stay connected and explore new connections effortlessly.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer-div">
+        <p id="copy">copyright &copy; 2024 <a href=""> seren.com</a></p>
+      </div>
+    </footer>
+
+    <div id="sing-up"></div>
+
+    <script src="../scripts/signup.js" type="module"></script>
+  </body>
+</html>
